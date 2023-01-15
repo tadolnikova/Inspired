@@ -1,7 +1,11 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+<<<<<<< HEAD
 const CopyPlugin = require('copy-webpack-plugin');
+=======
+// const CopyPlugin = require('copy-webpack-plugin');
+>>>>>>> b1dcd17bb4359f4774304a469c5c58686945722a
 
 const mode = process.env.NODE_ENV || 'development';
 const devMode = mode === 'development';
@@ -31,9 +35,15 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: '[name].[contenthash].css',
     }),
+<<<<<<< HEAD
     new CopyPlugin({
     patterns: [{ from: 'static', to: './' }],
     }),
+=======
+    // new CopyPlugin({
+    //   patterns: [{ from: 'static', to: './' }],
+    // }),
+>>>>>>> b1dcd17bb4359f4774304a469c5c58686945722a
   ],
   module: {
     rules: [
