@@ -1,0 +1,42 @@
+.hero{
+
+    background-color: rgba(128, 128, 128, 0.855);
+    color: white;
+    margin-bottom: 80px;
+    background-position: center;
+    background-size: cover;
+    
+
+
+    &__women {
+        background-image: url('../img/bg-women.jpg');
+
+    }
+    &__men {
+        background-image: url('../img/bg-men.jpg');
+        
+    }
+
+
+    &__content {
+        max-width: 590px;
+        padding: 172px 0 86px;
+    }
+
+    &__title {
+        font-weight: 400;
+        font-size: 44px;
+        line-height: 120%;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+    }
+
+    &__link {
+        display: block;
+        padding: 14px 40px;
+        font-size: 14px;
+        line-height: 17px;
+        text-transform: uppercase;
+        border: 1px solid #FFFFFF;
+    }
+}
